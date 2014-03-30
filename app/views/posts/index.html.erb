@@ -2,8 +2,10 @@
 
 
 	<% @posts.each do |post|%>
-	<div class="see-box center"> 
+	<div class="see-box center col-xs-8 col-xs-offset-2 see-box text-left"> 
 		<%= post.title%>
+		<%= image_tag post.image  , :class => ' img-responsive' %>
+		<%= post.description%>
 	</div>
 		<% end%>
 

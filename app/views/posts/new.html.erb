@@ -4,7 +4,9 @@
 <%= simple_form_for @post do |f| %>
 	<%= f.input :title, label: 'what is it?' %>
 	<%= f.input :description, label: 'tell us about it' %>
+	<%= f.input :image %>
 	<%= f.button :submit, label: 'submit' , :class => ' btn btn-warning'%>
+
 	<%= %>
 
 

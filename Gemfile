@@ -35,6 +35,9 @@ end
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'simple_form'
 gem 'country_select' 
+gem 'carrierwave'
+gem "figaro"
+gem 'fog', '~> 1.3.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
@@ -47,3 +50,4 @@ gem 'country_select'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+	
